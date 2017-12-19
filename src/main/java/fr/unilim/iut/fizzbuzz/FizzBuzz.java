@@ -3,9 +3,9 @@ package fr.unilim.iut.fizzbuzz;
 public class FizzBuzz {
 
 	public String donnerLaReponsePour(Integer nombre) {
-		RegleFizzBuzz regleFizzBuzz = new RegleFizzBuzz();
-		RegleBuzz regleBuzz = new RegleBuzz();
-		RegleFizz regleFizz = new RegleFizz();
+		Regle regleFizzBuzz = new RegleFizzBuzz();
+		Regle regleBuzz = new RegleBuzz();
+		Regle regleFizz = new RegleFizz();
 		
 		if (regleFizzBuzz.estVerifieePar(nombre))
 			return regleFizzBuzz.valeurAAfficherSiRegleVerifiee();
