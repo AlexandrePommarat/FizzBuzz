@@ -1,5 +1,10 @@
 package fr.unilim.iut.fizzbuzz;
 
+import rules.Regle;
+import rules.RegleBuzz;
+import rules.RegleFizz;
+import rules.RegleFizzBuzz;
+
 public class FizzBuzz {
 
 	public String donnerLaReponsePour(Integer nombre) {
